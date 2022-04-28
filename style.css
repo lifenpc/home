@@ -1,0 +1,93 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;          /* 목록에 점 없애기.*/
+    text-decoration: none;     /*-바로가기 밑줄없애기.*/
+    border-collapse: collapse; /*-선붙이기.*/
+    margin:0px;
+    padding:0px;
+    color:black;
+}
+
+h1 {
+    font-size: 48px;
+}
+.contents{
+    font-size:20px;
+}
+.intro_bg{
+    background-image:url("image/intro.png");
+    width:auto;
+    height:604px;
+    align-self: center;
+    
+}
+
+.header{
+    display:flex;
+    width:1280px;
+    margin:auto;
+    height:86px;
+}
+
+.logoArea{
+    width:300px;
+    height:40px;
+    background:rgba(0,0,0,0,0);
+    border-radius:5px;
+    margin-top:24px;
+}
+
+.searchArea{
+    width:420px;
+    height:40px;
+    background:rgba(0,0,0,0,0);
+    border-radius:5px;
+    margin-top:24px;
+}
+
+.searchArea > form > input{
+    border:none;
+    width:250px;
+    height:40px;
+    background:rgba(0,0,0,0,0);
+    color:#fff;
+    padding-left:10px;
+}
+
+.searchArea > form > span{
+    width:50px;
+    color:#fff;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.nav{
+    display:flex;
+    /*justify-content: flex-end;*/
+    justify-content: flex-start;
+    line-height: 86px;
+    width:calc(1280px - 300px);
+    /*width:300px;*/
+    color:white;
+}
+
+.nav > li{
+    margin-left:84px;
+}
+
+.nav > li > a{
+    color:white;
+}
+
+.intro_text{
+    width:100%;
+    margin:150px auto 231px auto;
+    text-align:center;
+}
+
+
+
+.intro_text > h1,
+.intro_text > h4{
+    color:white;
+}
